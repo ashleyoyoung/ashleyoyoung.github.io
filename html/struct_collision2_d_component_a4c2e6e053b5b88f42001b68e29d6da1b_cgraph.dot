@@ -1,0 +1,15 @@
+digraph "Collision2DComponent::Update"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Collision2DComponent\l::Update",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="Component::GetGameEntity",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_component.html#ad1000f79fe140ee4cc90d0b23cd6c035",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Collision2DComponent\l::SetWH",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_collision2_d_component.html#abd832fdc022f80dfee1e20070f42f941",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Collision2DComponent\l::SetXY",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_collision2_d_component.html#a24ce405b955155836317f1c027631b86",tooltip=" "];
+}
